@@ -1,0 +1,14 @@
+$kind: http-request
+name: ""
+url: http://localhost:3000/books
+method: POST
+body:
+  type: text
+  content: "{\r
+
+    \  \"title\": \"Война и мир\",\r
+
+    \  \"author\": \"Лев Толстой\"\r
+
+    }"
+order: 1000

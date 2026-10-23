@@ -1,0 +1,18 @@
+
+{
+  "name": "backend-practice-1",
+  "version": "2.0.0",
+  "description": "Практическое занятие №2: REST API для книг с PostgreSQL и Sequelize",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.5"
+  }
+}
